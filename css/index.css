@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    padding: 20px;
+}
+
+header.header {
+    background-color: #2196f3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.parte3, .barras, .barras2, .barras4, .parte5 {
+    margin-bottom: 20px;
+}
+
+.parte5 label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1976d2;
+}
